@@ -1,0 +1,16 @@
+@layer base {
+
+  .btn {
+    @apply p-2 rounded;
+  }
+  
+  .btn--primary {
+    @apply bg-primary border-primary border-2 flex w-fit text-secondary;
+  }
+
+  .btn--secondary {
+    @apply bg-transparent border-primary-dark border-2;
+  }
+
+
+}
